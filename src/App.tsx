@@ -7,7 +7,6 @@ import SaleOrderItemForm from './pages/SaleOrderItemForm';
 
 const App = () => (
   <Router>
-
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/sale-order-items" element={<SaleOrderItems />} />
